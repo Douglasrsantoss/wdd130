@@ -243,6 +243,88 @@ footer p a:hover{
     padding-top: 15px;
 }
 
+/*THIS IS THE CONTACT US PART*/
+
+.contact_us{
+    margin-top: 50px;
+    padding: 30px;
+    align-self: center;
+    color: white;
+    background-color: #034e5e;
+}
+
+#map, #adress{
+    margin: 100px;
+}
+
+.text{
+    font-weight: 600;
+    color: #034e5e;
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.upper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.maps, .waze, .herewego{
+    width: 50px;
+}
+
+#adress{
+    text-align: left;
+}
+
+.links{
+    margin-top: 100px;
+    display:block;
+    justify-content: center;
+}
+
+.contacts{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #034e5e;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+#email{
+    justify-content: center;
+}
+.email-card, .phone-card, .whats-card{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background-color: white;
+}
+
+.email-card{
+    display: grid;
+    grid-column: 2/4;
+}
+
+.phone-card{
+    display: block;
+    grid-column: 6/8;
+}
+
+.whats-card{
+    display: grid;
+    justify-content: center;
+    grid-column: 10/12;
+}
+
+.email, .phone{
+    width: 50px;
+}
+
+.goodbye{
+    font-weight: 600;
+    color: #034e5e;
+    font-size: 2em;
+    margin-top: 100px;
+}
 
 /* THIS IS THE RESPONSIVENESS PART*/
 
