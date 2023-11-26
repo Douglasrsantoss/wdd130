@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@600&family=Open+Sans:wght@300&display=swap');
+
+/*colours:
+
+
+--primary-color: #AB977C   ;  
+--secondary-color: #000000 ;
+--accent1-color: #A88557;
+--accent2-color: #ffffff;
+
+
+--heading-font: 'Noto Serif SC', Times, Arial, serif;
+--paragraph-font: 'Open Sans', Helvetica, sans-serif;
+
+
+--headline-color-on-white: #AB977C;  /* headlines on a white background 
+--headline-color-on-color: white; /* headlines on a colored background 
+--paragraph-color-on-white: #A88557; /* paragraph text on a white background  
+--paragraph-color-on-color: white; /* paragraph text on a colored background  
+--paragraph-background-color: #A88557  ;
+--nav-link-color: #A88557;
+--nav-background-color: #311E10;
+--nav-hover-link-color: white;
+--nav-hover-background-color: #311E10;
+
+*/
+
+
+/* This is the BEGINING OF THE HEADER PART */
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #311E10;
+    font-family: 'Noto Serif SC', Times, Arial, serif;
+}
+
+#logo_link {
+    padding: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+.logo, .icon{ 
+    width: 100px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+nav a{
+    text-align: center;
+    color: #A88557;
+    text-decoration: none;
+    padding: 35px;
+}
+
+nav a:hover{
+    color: #fcfbfb;
+    text-decoration: underline;
+}
+
+/* This is the END OF THE HEADER PART */
+
+/* This is the BEGINNING OF THE UPPER PART */
+
+#upper{
+    display: flex;
+    padding: 50px;
+    border-color: white;
+    margin: 20px;
+}
+
+#upper img{
+    width: 300px;
+    margin-left: 100px;
+}
+
+#upper p{
+    text-align: center;
+    color: #AB977C;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 1em;
+    margin-top: 50px;
+}
+
+/* This is the END OF THE HEADER PART */
+
+/* This is the BEGINNING OF THE CLEANING PART */
+
+#cleaning{
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #A88557;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#cleaning h3{
+    font-family: 'Noto Serif SC', Times, Arial, serif;
+    grid-column: 1/3;
+    font-size: 2.5em;
+    text-justify: auto;
+    color: #fcfbfb;
+}
+
+#cleaning img{
+    width: 250px;
+    align-self: center;
+    border: 5px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: #fcfbfb;
+}
+
+#cleaning p{
+    color: #fcfbfb;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+    border-color:  #311E10;
+    font-size: 2em;
+    padding-top: 50px;
+}
+
+/* This is the END OF THE CLEANING PART */
+
+/* This is the BEGINNING OF THE RESTORATION PART */
+
+#restoration{
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    border: 10px;
+    border-style: solid;
+    border-color: #A88557;
+}
+
+#restoration h3{
+    font-family: 'Noto Serif SC', Times, Arial, serif;
+    grid-column: 1/3;
+    font-size: 2.5em;
+    text-justify: auto;
+    color: #311E10;
+}
+
+#restoration img{
+    width: 250px;
+    align-self: auto;
+    border: 5px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: #fcfbfb;
+}
+
+#restoration p{
+    color: #311E10;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+    border-color:  #311E10;
+    font-size: 2em;
+    
+}
+
+/* This is the END OF THE RESTORATION PART */
+
+/* This is the BEGINNING OF THE EXTRACTION PART */
+
+#extraction{
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    background-color: #A88557;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+#extraction h3{
+    font-family: 'Noto Serif SC', Times, Arial, serif;
+    grid-column: 1/3;
+    font-size: 2.5em;
+    text-justify: auto;
+    color: #fcfbfb;
+}
+
+#extraction img{
+    width: 250px;
+    align-self: center;
+    border: 5px;
+    margin-bottom: 15px;
+    border-style: solid;
+    border-color: #fcfbfb;
+}
+
+#extraction p{
+    color: #fcfbfb;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+    border-color:  #311E10;
+    font-size: 2em;
+    padding-top: 40px;
+}
+
+/* This is the END OF THE EXTRACTION PART */
+
+/* This is the BEGINNING OF THE PLANNING PART */
+
+#planning{
+    display: grid;
+    padding-left: 150px;
+    padding-right: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    grid-template-columns: 1fr 1fr;
+    border: 10px;
+    border-style: solid;
+    border-color: #A88557;
+}
+
+#planning h3{
+    font-family: 'Noto Serif SC', Times, Arial, serif;
+    grid-column: 1/3;
+    font-size: 2.5em;
+    text-justify: auto;
+    color: #311E10;
+}
+
+#planning img{
+    width: 250px;
+    align-self: auto;
+    border: 5px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    margin-left: 100px;
+    border-style: solid;
+    border-color: #fcfbfb;
+}
+
+#planning p{
+    color: #311E10;
+    align-items: center;
+    text-align: center;
+    border-style: dashed;
+    border-color:  #311E10;
+    font-size: 2em;
+    
+}
+
+/* This is the END OF THE PLANNING PART */
+
+/* This is the BEGINNING OF THE FOTTER PART */
+
+footer{
+    background-color: #311E10;
+    color: white;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer a{
+    color: #fcfbfb;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: #311E10;
+    background-color: #fcfbfb;
+    text-decoration: underline;
+}
+
+footer p{
+    font-size: 1.2em;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}
+
+#social img{
+    padding-top: 15px;
+}
+
+/* This is the END OF THE FOTTER PART */
