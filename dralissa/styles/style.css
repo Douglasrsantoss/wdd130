@@ -24,7 +24,10 @@
 --nav-hover-background-color: #311E10;
 
 */
-
+main{
+    margin-left: 10%;
+    margin-right: 10%;
+}
 
 /* This is the BEGINING OF THE HEADER PART */
 
@@ -65,8 +68,9 @@ nav a:hover{
 
 /* This is the BEGINNING OF THE UPPER PART */
 
-#upper{
+#upper, #her{
     display: flex;
+    align-items: center;
     padding: 50px;
     border-color: white;
     margin: 20px;
@@ -77,7 +81,7 @@ nav a:hover{
     margin-left: 100px;
 }
 
-#upper p{
+#upper p, #her p{
     text-align: center;
     color: #AB977C;
     font-family: 'Open Sans', Helvetica, sans-serif;
@@ -294,3 +298,58 @@ footer p a:hover{
 }
 
 /* This is the END OF THE FOTTER PART */
+
+/*AS I'M IN THE BEGINNING, I'LL DO EVERY THING STEP BY STEP. I'LL ADD VERY FEW THINGS IN THE 
+SAME CSS PART, JUST TO DON'T LOOSE IT AND PERCIEVE BETTER WHAT IS HAPPENING WITH THE SITE*/
+
+/* This is the BEGINNING OF THE HER PART*/
+
+#her img {
+    margin-right: 30px;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*#unesp, #unesp-clinic {
+    display: flex;
+    align-items: center;
+    padding: 50px;
+    border-color: white;
+    margin: 20px;
+    color: #AB977C;
+    background-color: #28292D;
+}*/
+
+#unesp, #unesp-clinic {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    padding: 30px;
+    border-color: white;
+    margin: 20px;
+    color: rgb(171, 151, 125);
+    /*background-color: rgba(171, 151, 125, 0.4)*/
+    /*background-color: #28292D;*/
+}
+
+#unesp img, #unesp-clinic img {
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+}
+
+
+
+#unesp p, #unesp-clinic p {
+    background-color: #311E10;
+    padding: 30px;
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    font-size: 1em;
+    color: #fcfbfb;
+}
+
+/*#background {
+    background-color: #AB977C;
+}*/
