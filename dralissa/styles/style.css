@@ -340,7 +340,10 @@ SAME CSS PART, JUST TO DON'T LOOSE IT AND PERCIEVE BETTER WHAT IS HAPPENING WITH
     width: auto;
 }
 
-
+#unesp-clinic img {
+    width: 400px;
+    margin-right: 50px;
+}
 
 #unesp p, #unesp-clinic p {
     background-color: #311E10;
