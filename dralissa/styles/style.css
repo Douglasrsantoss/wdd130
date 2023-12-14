@@ -346,7 +346,7 @@ SAME CSS PART, JUST TO DON'T LOOSE IT AND PERCIEVE BETTER WHAT IS HAPPENING WITH
 }
 
 #unesp p, #unesp-clinic p {
-    background-color: #311E10;
+    background-color: #A88557;
     padding: 30px;
     font-family: 'Open Sans', Helvetica, sans-serif;
     font-size: 1em;
@@ -422,7 +422,7 @@ h1 {
     align-items: center;
 }
 
-#st{
+.st_img{
     grid-column: 1/2;
     grid-row: 2/3;
 }
@@ -432,7 +432,7 @@ h1 {
     grid-row: 2/3;
 }
 
-#nd {
+.nd_img {
     grid-column: 1/2;
     grid-row: 3/4;
 }
